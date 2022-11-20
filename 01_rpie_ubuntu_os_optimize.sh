@@ -350,11 +350,11 @@ if [[ -z "$1" ]]; then
     disable_system_services
     #eradicate_snapd
     purge_packages
-    disable_swap
+    #disable_swap
     #disable_ipv6
     make_linux_fast_again
     #disable_ufw
-    benchmark_mangohud
+    #benchmark_mangohud
 else
     for call_function in "$@"; do
         $call_function
