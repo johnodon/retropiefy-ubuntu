@@ -8,7 +8,7 @@ set -e
 
 # one of: wayland, kmsdrm, x11; if kmsdrm or Wayland don't support 1080p,
 # and X does, then __default_session_type=x11 is forced by the script
-__default_session_type="wayland"
+__default_session_type="kmsdrm"
 
 # updating MESA will fail e.g. on Ubuntu development branch. Set to 0 to
 # skip MESA update.
