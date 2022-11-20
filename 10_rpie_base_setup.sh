@@ -491,11 +491,11 @@ are_we_root
 if [[ -z "$1" ]]; then
     install_retropie
     wayland_patch_runcommand
-    install_retroarch_shaders
-    install_more_cores
+    #install_retroarch_shaders
+    #install_more_cores
     install_retroarch_head
-    install_scrapers
-    install_3rdparty_themes
+    #install_scrapers
+    #install_3rdparty_themes
     
     mod_sway_i3_confs
 else
